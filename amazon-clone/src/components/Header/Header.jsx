@@ -3,8 +3,15 @@ import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from "react-router-dom";
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import { useSelector } from 'react-redux'
+
+
+
 
 const Header = () => {
+    const cartItems =useSelector(state => state.cart.cart)
+    // console.log(cart);
+  // const dispatch = useDispatch()
   return (
     <div className="header">
      <Link to='/'><img  className="header_logo"src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="#" /></Link> 
@@ -16,7 +23,7 @@ const Header = () => {
       <div className="header-nav">
         <div className="header-options">
           <span className="header__optionline-one">Hlo_Guest </span>
-        <span className="header__optionline-two">signin</span>
+        <Link  to='/login' className="header__optionline-two">signin</Link> 
 
         </div>
         <div className="header-options">
@@ -34,7 +41,7 @@ const Header = () => {
         </div>
         <Link to='/checkout'>        <div className="header__basket_option">
         <ShoppingBasketIcon/>
-        <span className="header__basket-count header__optionline-two">0</span>
+        <span className="header__basket-count header__optionline-two">{cartItems.length}</span>
 
 
         </div></Link>

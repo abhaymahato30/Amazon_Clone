@@ -7,7 +7,7 @@ const Home = () => {
       <div className="home">
         <div className="home_container">
           <img
-            src="https://r4.wallpaperflare.com/wallpaper/830/569/186/loki-in-thor-2-wallpaper-1f4c127fcde9b558d73d124494f36070.jpg"
+            src="https://images.pexels.com/photos/586056/pexels-photo-586056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
           />
           <div className="home_row">

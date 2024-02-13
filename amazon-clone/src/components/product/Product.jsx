@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import './product.css'
+import { useSelector, useDispatch } from 'react-redux'
+import { addtoCart } from "../../features/counter/counterSlice";
+// import { decrement, increment } from '../../features/counter/counterSlice'
 
-const Product = ({title,image,price,rating}) => {
+
+const Product = ({id,title,image,price,rating}) => {
+  // const count = useSelector((state) => state.counter.value)
+  const dispatch = useDispatch()
+
   return (
     <>
       <div className="product" >
@@ -23,10 +30,12 @@ const Product = ({title,image,price,rating}) => {
         <img src={image}  alt="" />
       
 
-        <button>Add To Basket</button>
+        <button   aria-label="Increment value"
+         onClick={()=>dispatch(addtoCart({id,title,image,price,rating}))}>Add To Basket</button>
       </div>
     </>
   );
 };
 
 export default Product;
+  // onClick={() => dispatch(increment())}
