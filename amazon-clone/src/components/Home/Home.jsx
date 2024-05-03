@@ -72,21 +72,21 @@ const Home = () => {
               title="DANISH ENDURANCE Merino Wool Beanie for Men & Women, Knitted Winter Hat"
               price={23.96}
               rating={4}
-              image="https://m.media-amazon.com/images/I/71LNStjQDpL._AC_SX425_.jpg"
+              image="https://m.media-amazon.com/images/I/31dIdIfy6GL._AC_UF226,226_FMjpg_.jpg"
             />
             <Product
               id={9}
               title="Meat Thermometer Digital, Waterproof Instant Read Meat Thermometers for Grilling and Cooking. Food Thermometer, Kitchen Gadgets, Accessories with Bottle Cap Opener for Kitchen, BBQ, Grill…"
               price={12.99}
               rating={5}
-              image="https://m.media-amazon.com/images/I/717eMW-myeL._SX466_.jpg"
+              image="https://m.media-amazon.com/images/I/31xF+ksXkKL._AC_UF226,226_FMjpg_.jpg"
             />
             <Product
               id={10}
               title="Sakugi Dish Drying Rack - X-Large Stainless Steel Dish Rack for Kitchen Counter, Kitchen Organizers and Storage for Dishes, Bowls, Cutlery, Black"
               price={651}
               rating={4}
-              image="https://m.media-amazon.com/images/I/819zf0AMM2L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+              image="https://m.media-amazon.com/images/I/31JKnBNL7sL._AC_SR400,600_.jpg"
             />
           </div>
         </div>

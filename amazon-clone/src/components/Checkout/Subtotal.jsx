@@ -15,13 +15,13 @@ const Subtotal = () => {
     <div className="subtotal">
       <strong>Total Items =   <span>{cartItems.length}</span> </strong>
     
+      <p>Total Price :  ${totalAmount}</p>
       
 
       <small className="subTotal_gift">
         <input type="checkbox" />
         This Order Contains a gift
       </small>
-        <p>Total :  ${totalAmount}</p>
 
       <button className="btn-check">Proceed to Checkout</button>
     </div>
