@@ -1,0 +1,60 @@
+.signin_text{
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+.container_login{
+    width: 380px;
+    height: 380px;
+    /* background-color: #bdbdbd; */
+
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+   
+
+}
+.container_signin{
+    width: 380px;
+    height: 450px;
+    /* background-color: #bdbdbd; */
+
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.login_container_2{
+    padding: 15px;
+   
+    background-color: #f3f3f3;
+
+
+}
+.Signin_button{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.signin_input{
+    width: 100%;
+    height: 30px;
+    margin-top: 0%;
+}
+.create_account_button{
+    width: 100%;
+    background-color: #d3d3d3;
+    border: none;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    border: 2px solid #bbbbbb;
+    
+}
